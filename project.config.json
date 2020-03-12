@@ -15,7 +15,7 @@
 		"scopeDataCheck": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.10.1",
+	"libVersion": "2.10.3",
 	"appid": "wxdd09debb1dcbf474",
 	"projectname": "wx_app",
 	"debugOptions": {
