@@ -2,6 +2,7 @@
 .container {
   padding: 10rpx;
   display: inline-flex;
+  width: 90rpx;
 }
 .container image {
   width: 32rpx;

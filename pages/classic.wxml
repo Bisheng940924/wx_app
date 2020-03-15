@@ -1,2 +1,9 @@
 <!--pages/classic.wxml-->
-<v-like></v-like>
+<view class="header">
+  <v-epsoide class="epsoide" index="{{classicData.index}}"/>
+  <v-like class="like" bind:like="onLike" like="{{classicData.like_status}}" count="{{classicData.fav_nums}}"></v-like>
+</view>
+
+<v-moive img="{{classicData.image}}" content="{{classicData.content}}"> </v-moive>
+
+<v-navi title="{{classicData.title}}"/>

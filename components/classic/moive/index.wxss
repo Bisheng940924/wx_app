@@ -1,0 +1,22 @@
+/* components/classic/music/index.wxss */
+.classic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.classic-img {
+  width: 750rpx;
+  height: 500rpx;
+}
+.tag {
+  height: 142rpx;
+  width: 46rpx;
+  position: relative;
+  right: 310rpx;
+  bottom: 58rpx;
+}
+
+.content {
+  font-size: 36rpx;
+  max-width: 550rpx;
+}
