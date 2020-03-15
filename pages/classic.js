@@ -10,7 +10,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    classicData: ''
+    classicData: '',
+    latest: true,
+    first: false
   },
 
   /**
@@ -78,5 +80,13 @@ Page({
     console.log(e)
     let behavior = e.detail.behavior
     likeModel.like(behavior, this.data.classicData.id, this.data.classicData.type)
+  },
+
+  onNext: function() {
+
+  },
+
+  onPrevious: function() {
+    
   }
 })
